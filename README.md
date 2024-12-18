@@ -1,4 +1,11 @@
 # WireGuard Easy
+```shell
+mkdir ~/.wg-easy
+cd ~/.wg-easy
+wget https://raw.githubusercontent.com/WeeJeWel/wg-easy/master/docker-compose.yml
+nano docker-compose.yml
+docker compose up -d
+```
 
 [![Build & Publish Docker Image to Docker Hub](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)
 [![Lint](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml)
